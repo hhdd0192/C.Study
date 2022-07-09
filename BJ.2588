@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(void){
+    int n1; scanf("%d",&n1);
+    int a,b,c ; scanf("%1d%1d%1d", &a,&b,&c);
+    printf("%d\n%d\n%d\n%d\n", n1 * c, n1 * b, n1 * a , n1 * c + n1 * b * 10 + n1 * a *100);
+    return 0;
+}
